@@ -1,7 +1,0 @@
-package example
-
-class ParquetWriterClass {
-
-  
-  
-}

@@ -1,5 +1,8 @@
 package example
 
+//IO Imports
+import java.io._
+
 //Kafka Imports
 import java.util.{Collections, Properties}
 import org.apache.kafka.clients.consumer.KafkaConsumer
@@ -86,7 +89,11 @@ class ConsumerClass {
           wind_speed+"\n"+
           name
           )
-
+/* 
+          val fw = new FileWriter("GOOP.txt", true) ; 
+            fw.write("This line appended to file!") ; 
+            fw.close()
+ */
         }//End of 'for (record <- records.asScala)'        
       }//End of 'while(true)'
     } catch {

@@ -13,13 +13,14 @@ object Main{
     println()
 
     do{
-    print("\u001b[2J")
+    //print("\u001b[2J")
     println("Please select information to display:")
     println("1. Run Producer" +
           "\n2. Consumer" +
-          "\n3. -" +
-          "\n4. -" +
-          "\n5. Quit Application")
+          "\n3. Spark Consumer" +
+          "\n4. FlatDF" +
+          "\n5. Parsed Consumer" +
+          "\n6. Quit Application")
     try {
       
       val option = scala.io.StdIn.readInt()
@@ -37,12 +38,24 @@ object Main{
           consumer.consume()
         }
         case 3 => {
-        
+          val sparkConsumer = new SparkConsumerClass
+          println("I AM THE SPARK CONSOLE CONSUMER")
+          sparkConsumer.console
+          
         }
         case 4 => {
+          val sparkConsumer = new SparkConsumerClass
+          println("I AM THE FLATTENED DF")
+          val flatDF = sparkConsumer.flattenRecord()
+          sparkConsumer.printToConsole(flatDF)
           
         }
         case 5 => {
+          val sparkConsumer = new SparkConsumerClass
+          println("I AM THE SPARK PARSED CONSUMER")
+          sparkConsumer.refineData()
+        }
+        case 6 => {
           loop = false
         }
       }//End of 'match'
@@ -53,8 +66,7 @@ object Main{
   
   } while(loop) 
    
-    val producer = new ProducerClass
-    var data = producer.produce
+    
      
 
     

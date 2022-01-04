@@ -9254,3 +9254,777 @@ No more data in the server stdin, exiting...
 [0m2022.01.01 19:32:48 INFO  time: compiled root in 0.44s[0m
 [0m2022.01.01 19:32:54 INFO  compiling root (1 scala source)[0m
 [0m2022.01.01 19:32:54 INFO  time: compiled root in 0.46s[0m
+[0m2022.01.03 10:13:53 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:13:53 INFO  time: compiled root in 0.71s[0m
+[0m2022.01.03 10:13:55 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:13:55 INFO  time: compiled root in 0.2s[0m
+[0m2022.01.03 10:14:09 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:14:09 INFO  time: compiled root in 0.14s[0m
+[0m2022.01.03 10:14:28 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:14:28 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:14:28 INFO  time: compiled root in 0.73s[0m
+[0m2022.01.03 10:15:19 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\theod\AppData\Local\Temp\metals2639286028820104651\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.03 10:15:20 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2022.01.03 10:15:20 INFO  [info] loading settings for project openweatherproject-build-build from metals.sbt ...[0m
+[0m2022.01.03 10:15:21 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project\project[0m
+[0m2022.01.03 10:15:21 INFO  [info] loading settings for project openweatherproject-build from metals.sbt ...[0m
+[0m2022.01.03 10:15:21 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project[0m
+[0m2022.01.03 10:15:25 INFO  [success] Generated .bloop\openweatherproject-build.json[0m
+[0m2022.01.03 10:15:25 INFO  [success] Total time: 4 s, completed Jan 3, 2022 10:15:26 AM[0m
+[0m2022.01.03 10:15:25 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2022.01.03 10:15:25 INFO  [info] set current project to OpenWeatherProject (in build file:/C:/Users/theod/AIOMyData/AIOOpenWeather/openweatherproject/)[0m
+[0m2022.01.03 10:15:28 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2022.01.03 10:15:28 INFO  [success] Generated .bloop\root.json[0m
+[0m2022.01.03 10:15:28 INFO  [success] Total time: 1 s, completed Jan 3, 2022 10:15:28 AM[0m
+[0m2022.01.03 10:15:28 INFO  time: ran 'sbt bloopInstall' in 8.88s[0m
+[0m2022.01.03 10:15:28 INFO  Disconnecting from Bloop session...[0m
+[0m2022.01.03 10:15:28 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 10:15:28 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 10:15:28 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 10:15:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:15:28 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 10:15:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:15:29 INFO  time: Connected to build server in 1.07s[0m
+[0m2022.01.03 10:15:29 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 10:15:30 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 10:15:30 INFO  time: indexed workspace in 1.43s[0m
+[0m2022.01.03 10:15:35 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 10:15:35 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 10:15:35 INFO  time: compiled root-test in 0.22s[0m
+[0m2022.01.03 10:15:58 INFO  shutting down Metals[0m
+[0m2022.01.03 10:15:58 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 10:15:58 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 10:16:29 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.03 10:16:30 INFO  time: initialize in 0.34s[0m
+[0m2022.01.03 10:16:31 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 10:16:31 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14371'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14371...
+The server is listening for incoming connections at tcp://127.0.0.1:14371...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:16:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:16:31 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24874'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24874...
+The server is listening for incoming connections at tcp://127.0.0.1:24874...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:16:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:16:32 INFO  time: Connected to build server in 1.13s[0m
+[0m2022.01.03 10:16:32 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 10:16:32 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 10:16:34 INFO  time: code lens generation in 3.15s[0m
+[0m2022.01.03 10:16:35 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 10:16:38 INFO  time: indexed workspace in 3.61s[0m
+[0m2022.01.03 10:16:38 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 10:16:39 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 10:16:39 INFO  time: compiled root-test in 0.17s[0m
+[0m2022.01.03 10:17:19 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:17:19 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:17:19 INFO  time: compiled root in 0.71s[0m
+[0m2022.01.03 10:19:08 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:19:08 INFO  time: compiled root in 0.19s[0m
+[0m2022.01.03 10:19:11 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:19:11 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:19:11 INFO  time: compiled root in 0.94s[0m
+[0m2022.01.03 10:19:14 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:19:14 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:19:14 INFO  time: compiled root in 0.72s[0m
+[0m2022.01.03 10:21:50 INFO  shutting down Metals[0m
+[0m2022.01.03 10:21:50 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 10:21:50 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 10:23:17 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.03 10:23:17 INFO  time: initialize in 0.33s[0m
+[0m2022.01.03 10:23:18 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 10:23:17 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16516'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16516...
+The server is listening for incoming connections at tcp://127.0.0.1:16516...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:23:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:23:18 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14283'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14283...
+The server is listening for incoming connections at tcp://127.0.0.1:14283...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:23:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:23:19 INFO  time: Connected to build server in 1.02s[0m
+[0m2022.01.03 10:23:19 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 10:23:20 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 10:23:20 INFO  time: code lens generation in 1.92s[0m
+[0m2022.01.03 10:23:22 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 10:23:23 INFO  time: indexed workspace in 2.61s[0m
+[0m2022.01.03 10:23:23 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 10:23:24 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 10:23:24 INFO  time: compiled root-test in 57ms[0m
+[0m2022.01.03 10:23:43 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:23:43 INFO  time: compiled root in 0.12s[0m
+[0m2022.01.03 10:23:54 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:23:54 INFO  time: compiled root in 0.12s[0m
+[0m2022.01.03 10:23:57 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:23:57 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:23:57 INFO  time: compiled root in 0.78s[0m
+[0m2022.01.03 10:25:20 INFO  shutting down Metals[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 10:25:20 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 10:25:20 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2022.01.03 10:25:34 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.03 10:25:34 INFO  time: initialize in 0.38s[0m
+[0m2022.01.03 10:25:35 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 10:25:34 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39470'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39470...
+The server is listening for incoming connections at tcp://127.0.0.1:39470...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:25:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:25:35 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35344'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35344...
+The server is listening for incoming connections at tcp://127.0.0.1:35344...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:25:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:25:36 INFO  time: Connected to build server in 1.11s[0m
+[0m2022.01.03 10:25:36 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 10:25:37 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 10:25:37 INFO  time: code lens generation in 2.34s[0m
+[0m2022.01.03 10:25:38 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 10:25:39 INFO  time: code lens generation in 2.01s[0m
+[0m2022.01.03 10:25:41 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 10:25:42 INFO  time: indexed workspace in 4.22s[0m
+[0m2022.01.03 10:25:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 10:25:43 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 10:25:43 INFO  time: compiled root-test in 58ms[0m
+[0m2022.01.03 10:26:05 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:26:05 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:26:05 INFO  time: compiled root in 0.7s[0m
+[0m2022.01.03 10:26:09 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:26:09 INFO  time: compiled root in 0.14s[0m
+[0m2022.01.03 10:26:12 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:26:12 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:26:12 INFO  time: compiled root in 0.76s[0m
+[0m2022.01.03 10:27:09 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:27:09 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:27:09 INFO  time: compiled root in 0.71s[0m
+[0m2022.01.03 10:27:12 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:27:12 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:27:12 INFO  time: compiled root in 0.79s[0m
+[0m2022.01.03 10:27:15 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:27:15 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:27:15 INFO  time: compiled root in 0.72s[0m
+[0m2022.01.03 10:28:00 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:28:00 INFO  time: compiled root in 0.18s[0m
+[0m2022.01.03 10:28:02 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:28:02 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:28:02 INFO  time: compiled root in 0.78s[0m
+[0m2022.01.03 10:28:48 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:28:48 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:28:48 INFO  time: compiled root in 0.78s[0m
+[0m2022.01.03 10:28:58 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:28:58 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:28:58 INFO  time: compiled root in 0.7s[0m
+[0m2022.01.03 10:29:01 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:29:01 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:29:01 INFO  time: compiled root in 0.74s[0m
+[0m2022.01.03 10:29:22 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:29:22 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:29:22 INFO  time: compiled root in 0.82s[0m
+[0m2022.01.03 10:29:30 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:29:30 INFO  time: compiled root in 0.13s[0m
+[0m2022.01.03 10:29:36 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:29:36 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:29:36 INFO  time: compiled root in 0.79s[0m
+[0m2022.01.03 10:29:53 INFO  shutting down Metals[0m
+[0m2022.01.03 10:29:53 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 10:29:53 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 10:30:11 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.03 10:30:11 INFO  time: initialize in 0.33s[0m
+[0m2022.01.03 10:30:12 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 10:30:12 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14018'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14018...
+The server is listening for incoming connections at tcp://127.0.0.1:14018...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:30:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:30:13 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24283'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24283...
+The server is listening for incoming connections at tcp://127.0.0.1:24283...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 10:30:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 10:30:13 INFO  time: Connected to build server in 1.16s[0m
+[0m2022.01.03 10:30:13 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 10:30:14 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 10:30:15 INFO  time: code lens generation in 2.33s[0m
+Jan 03, 2022 10:30:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+[0m2022.01.03 10:30:15 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 10:30:16 WARN  no build target for: C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\src\main\scala\example\Main.scala[0m
+[0m2022.01.03 10:30:16 INFO  time: code lens generation in 1.52s[0m
+[0m2022.01.03 10:30:18 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 10:30:19 INFO  time: indexed workspace in 4.48s[0m
+[0m2022.01.03 10:30:19 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:30:19 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:30:19 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 10:30:20 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:30:20 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 10:30:20 INFO  time: compiled root in 1.09s[0m
+[0m2022.01.03 10:30:20 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:30:20 INFO  time: compiled root-test in 0.26s[0m
+[0m2022.01.03 10:31:43 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:31:43 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:31:43 INFO  time: compiled root in 0.77s[0m
+[0m2022.01.03 10:31:46 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:31:46 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:31:46 INFO  time: compiled root in 0.8s[0m
+[0m2022.01.03 10:31:49 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:31:49 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:31:49 INFO  time: compiled root in 0.77s[0m
+[0m2022.01.03 10:32:05 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:32:05 INFO  time: compiled root in 0.18s[0m
+[0m2022.01.03 10:32:09 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 10:32:09 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+[0m2022.01.03 10:32:09 INFO  time: compiled root in 0.73s[0m
+[0m2022.01.03 14:15:20 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:15:20 INFO  time: compiled root in 0.51s[0m
+[0m2022.01.03 14:15:23 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:15:23 INFO  time: compiled root in 0.49s[0m
+[0m2022.01.03 14:15:28 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:15:28 INFO  time: compiled root in 0.52s[0m
+[0m2022.01.03 14:15:42 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:15:42 INFO  time: compiled root in 0.5s[0m
+[0m2022.01.03 14:15:47 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:15:47 INFO  time: compiled root in 0.47s[0m
+[0m2022.01.03 14:17:07 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:17:07 INFO  time: compiled root in 0.49s[0m
+[0m2022.01.03 14:17:10 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:17:10 INFO  time: compiled root in 0.14s[0m
+[0m2022.01.03 14:17:22 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:17:22 INFO  time: compiled root in 0.15s[0m
+[0m2022.01.03 14:17:24 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:17:24 INFO  time: compiled root in 0.14s[0m
+[0m2022.01.03 14:17:27 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:17:27 INFO  time: compiled root in 0.15s[0m
+[0m2022.01.03 14:18:18 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:18:18 INFO  time: compiled root in 0.15s[0m
+[0m2022.01.03 14:18:33 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:18:33 INFO  time: compiled root in 0.13s[0m
+[0m2022.01.03 14:18:35 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:18:35 INFO  time: compiled root in 0.14s[0m
+Jan 03, 2022 2:19:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Ftheod%2FAIOMyData%2FAIOOpenWeather%2Fopenweatherproject%2Fbuild.sbt:18: error: illegal start of simple expression
+    ,libraryDependencies += "org.apache.kafka" %% "kafka" % "2.1.0"  
+    ^
+file%3A%2F%2F%2FC%3A%2FUsers%2Ftheod%2FAIOMyData%2FAIOOpenWeather%2Fopenweatherproject%2Fbuild.sbt:18: error: illegal start of simple expression
+    ,libraryDependencies += "org.apache.kafka" %% "kafka" % "2.1.0"  
+    ^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3037)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2989)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2987)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2971)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2401)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExpr(ScalametaParser.scala:3172)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsWithUsing$3(ScalametaParser.scala:3188)
+	at scala.meta.internal.parsers.ScalametaParser.partOrEllipsis$1(ScalametaParser.scala:1499)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:1505)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:1511)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsWithUsing$1(ScalametaParser.scala:3188)
+	at scala.meta.internal.parsers.ScalametaParser.inParens(ScalametaParser.scala:783)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:3179)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$4(ScalametaParser.scala:3128)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3128)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3113)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3040)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3040)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2989)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2987)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2971)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2401)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2278)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2306)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4235)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4221)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4187)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4176)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5012)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5008)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5262)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5261)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5257)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5321)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2022.01.03 14:19:08 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\theod\AppData\Local\Temp\metals9098486311355839242\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.03 14:19:09 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2022.01.03 14:19:09 INFO  [info] loading settings for project openweatherproject-build-build from metals.sbt ...[0m
+[0m2022.01.03 14:19:11 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project\project[0m
+[0m2022.01.03 14:19:11 INFO  [info] loading settings for project openweatherproject-build from metals.sbt ...[0m
+[0m2022.01.03 14:19:11 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project[0m
+[0m2022.01.03 14:19:13 INFO  user cancelled sbt bloopInstall[0m
+[0m2022.01.03 14:19:13 INFO  skipping build import with status 'Cancelled'[0m
+[0m2022.01.03 14:19:13 INFO  time: ran 'sbt bloopInstall' in 4.91s[0m
+[0m2022.01.03 14:19:17 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\theod\AppData\Local\Temp\metals5083484171470088800\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.03 14:19:18 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2022.01.03 14:19:18 INFO  [info] loading settings for project openweatherproject-build-build from metals.sbt ...[0m
+[0m2022.01.03 14:19:19 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project\project[0m
+[0m2022.01.03 14:19:19 INFO  [info] loading settings for project openweatherproject-build from metals.sbt ...[0m
+[0m2022.01.03 14:19:19 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project[0m
+[0m2022.01.03 14:19:22 INFO  [success] Generated .bloop\openweatherproject-build.json[0m
+[0m2022.01.03 14:19:22 INFO  [success] Total time: 3 s, completed Jan 3, 2022 2:19:23 PM[0m
+[0m2022.01.03 14:19:25 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2022.01.03 14:19:25 INFO  [info] set current project to OpenWeatherProject (in build file:/C:/Users/theod/AIOMyData/AIOOpenWeather/openweatherproject/)[0m
+[0m2022.01.03 14:19:29 INFO  [success] Generated .bloop\root.json[0m
+[0m2022.01.03 14:19:29 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2022.01.03 14:19:29 INFO  [success] Total time: 4 s, completed Jan 3, 2022 2:19:29 PM[0m
+[0m2022.01.03 14:19:29 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2022.01.03 14:19:29 INFO  Disconnecting from Bloop session...[0m
+No more data in the server stdin, exiting...[0m2022.01.03 14:19:29
+ INFO  Shut down connection with build server.No more data in the server stdin, exiting...[0m
+
+No more data in the server stdin, exiting...
+[0mNo more data in the server stdin, exiting...2022.01.03 14:19:29
+ INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2022.01.03 14:19:29 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28929'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\.bloop\root-test.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28929...
+The server is listening for incoming connections at tcp://127.0.0.1:28929...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:19:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:19:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34384'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34384...
+The server is listening for incoming connections at tcp://127.0.0.1:34384...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:19:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:19:30 INFO  time: Connected to build server in 0.84s[0m
+[0m2022.01.03 14:19:30 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 14:19:31 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 14:19:31 INFO  time: indexed workspace in 1.51s[0m
+[0m2022.01.03 14:19:32 INFO  compiling root (4 scala sources)[0m
+[0m2022.01.03 14:19:32 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 14:19:32 INFO  time: compiled root in 0.29s[0m
+[0m2022.01.03 14:20:29 INFO  shutting down Metals[0m
+[0m2022.01.03 14:20:29 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 14:20:29 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 14:21:40 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.03 14:21:40 INFO  time: initialize in 0.29s[0m
+[0m2022.01.03 14:21:41 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.03 14:21:40 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26437'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26437...
+The server is listening for incoming connections at tcp://127.0.0.1:26437...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:21:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:21:41 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43534'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43534...
+The server is listening for incoming connections at tcp://127.0.0.1:43534...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:21:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:21:42 INFO  time: Connected to build server in 0.94s[0m
+[0m2022.01.03 14:21:42 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 14:21:42 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.03 14:21:43 INFO  time: code lens generation in 2.35s[0m
+[0m2022.01.03 14:21:45 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 14:21:46 INFO  time: indexed workspace in 2.51s[0m
+[0m2022.01.03 14:21:46 INFO  compiling root (4 scala sources)[0m
+[0m2022.01.03 14:21:46 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 14:21:46 INFO  time: compiled root in 0.49s[0m
+[0m2022.01.03 14:21:49 INFO  compiling root (4 scala sources)[0m
+[0m2022.01.03 14:21:49 INFO  time: compiled root in 0.28s[0m
+[0m2022.01.03 14:22:38 INFO  skipping build import with status 'Installed'[0m
+Jan 03, 2022 2:22:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Ftheod%2FAIOMyData%2FAIOOpenWeather%2Fopenweatherproject%2Fbuild.sbt:21: error: ) expected but string constant found
+    libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.3"
+                           ^
+file%3A%2F%2F%2FC%3A%2FUsers%2Ftheod%2FAIOMyData%2FAIOOpenWeather%2Fopenweatherproject%2Fbuild.sbt:21: error: ) expected but string constant found
+    libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.3"
+                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inParens(ScalametaParser.scala:785)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:3179)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$4(ScalametaParser.scala:3128)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3128)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3113)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3040)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3040)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2989)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2987)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2971)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2401)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2278)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2306)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4235)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4221)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4187)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4176)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5012)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5008)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5262)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5261)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5257)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5321)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2022.01.03 14:22:48 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\theod\AppData\Local\Temp\metals7178029291515320344\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.03 14:22:49 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2022.01.03 14:22:49 INFO  [info] loading settings for project openweatherproject-build-build from metals.sbt ...[0m
+[0m2022.01.03 14:22:50 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project\project[0m
+[0m2022.01.03 14:22:50 INFO  [info] loading settings for project openweatherproject-build from metals.sbt ...[0m
+[0m2022.01.03 14:22:50 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project[0m
+[0m2022.01.03 14:22:53 INFO  [success] Generated .bloop\openweatherproject-build.json[0m
+[0m2022.01.03 14:22:53 INFO  [success] Total time: 2 s, completed Jan 3, 2022 2:22:53 PM[0m
+[0m2022.01.03 14:22:55 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2022.01.03 14:22:55 INFO  [info] set current project to OpenWeatherProject (in build file:/C:/Users/theod/AIOMyData/AIOOpenWeather/openweatherproject/)[0m
+[0m2022.01.03 14:23:00 INFO  [success] Generated .bloop\root.json[0m
+[0m2022.01.03 14:23:00 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2022.01.03 14:23:00 INFO  [success] Total time: 4 s, completed Jan 3, 2022 2:23:00 PM[0m
+[0m2022.01.03 14:23:00 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+[0m2022.01.03 14:23:00 INFO  Disconnecting from Bloop session...[0m
+[0m2022.01.03 14:23:00 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 14:23:00 INFO No more data in the server stdin, exiting... 
+Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2022.01.03 14:23:00 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30740'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\.bloop\root-test.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30740...
+The server is listening for incoming connections at tcp://127.0.0.1:30740...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:23:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:23:00 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16363'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16363...
+The server is listening for incoming connections at tcp://127.0.0.1:16363...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:23:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:23:00 INFO  time: Connected to build server in 0.69s[0m
+[0m2022.01.03 14:23:00 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 14:23:02 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 14:23:02 INFO  time: indexed workspace in 2.14s[0m
+[0m2022.01.03 14:23:03 INFO  compiling root (4 scala sources)[0m
+[0m2022.01.03 14:23:03 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 14:23:04 WARN  there were two deprecation warnings; re-run with -deprecation for details[0m
+[0m2022.01.03 14:23:04 INFO  time: compiled root in 1.47s[0m
+[0m2022.01.03 14:23:04 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 14:23:04 INFO  time: compiled root-test in 0.2s[0m
+[0m2022.01.03 14:23:06 INFO  skipping build import with status 'Installed'[0m
+[0m2022.01.03 14:25:08 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:08 INFO  time: compiled root in 0.7s[0m
+[0m2022.01.03 14:25:10 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:10 INFO  time: compiled root in 0.67s[0m
+[0m2022.01.03 14:25:15 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:15 INFO  time: compiled root in 0.72s[0m
+[0m2022.01.03 14:25:26 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:26 INFO  time: compiled root in 0.66s[0m
+[0m2022.01.03 14:25:28 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:28 INFO  time: compiled root in 0.68s[0m
+[0m2022.01.03 14:25:42 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:42 INFO  time: compiled root in 0.8s[0m
+[0m2022.01.03 14:25:45 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:45 INFO  time: compiled root in 0.17s[0m
+[0m2022.01.03 14:25:49 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:49 INFO  time: compiled root in 0.17s[0m
+[0m2022.01.03 14:25:51 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:51 INFO  time: compiled root in 0.15s[0m
+[0m2022.01.03 14:25:58 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:25:58 INFO  time: compiled root in 0.16s[0m
+[0m2022.01.03 14:26:56 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:26:56 INFO  time: compiled root in 0.71s[0m
+[0m2022.01.03 14:27:02 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:02 INFO  time: compiled root in 0.67s[0m
+[0m2022.01.03 14:27:05 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:05 INFO  time: compiled root in 0.75s[0m
+[0m2022.01.03 14:27:10 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:10 INFO  time: compiled root in 0.74s[0m
+[0m2022.01.03 14:27:19 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:21 INFO  time: compiled root in 1.99s[0m
+[0m2022.01.03 14:27:42 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:42 INFO  time: compiled root in 0.13s[0m
+[0m2022.01.03 14:27:48 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:48 INFO  time: compiled root in 0.16s[0m
+[0m2022.01.03 14:27:50 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:50 INFO  time: compiled root in 0.12s[0m
+[0m2022.01.03 14:27:59 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:27:59 INFO  time: compiled root in 0.13s[0m
+[0m2022.01.03 14:28:09 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:28:09 INFO  time: compiled root in 0.19s[0m
+[0m2022.01.03 14:28:12 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:28:12 INFO  time: compiled root in 0.14s[0m
+[0m2022.01.03 14:28:19 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:28:19 INFO  time: compiled root in 0.14s[0m
+[0m2022.01.03 14:28:21 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:28:21 INFO  time: compiled root in 0.65s[0m
+[0m2022.01.03 14:28:55 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:28:55 INFO  time: compiled root in 0.74s[0m
+[0m2022.01.03 14:28:58 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:00 INFO  time: compiled root in 1.5s[0m
+[0m2022.01.03 14:29:17 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:17 INFO  time: compiled root in 0.78s[0m
+[0m2022.01.03 14:29:20 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:20 INFO  time: compiled root in 0.58s[0m
+[0m2022.01.03 14:29:24 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:24 INFO  time: compiled root in 0.16s[0m
+[0m2022.01.03 14:29:26 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:26 INFO  time: compiled root in 0.12s[0m
+[0m2022.01.03 14:29:29 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:29 INFO  time: compiled root in 0.13s[0m
+[0m2022.01.03 14:29:33 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:33 INFO  time: compiled root in 0.18s[0m
+[0m2022.01.03 14:29:36 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:36 INFO  time: compiled root in 0.68s[0m
+[0m2022.01.03 14:29:41 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:41 INFO  time: compiled root in 0.63s[0m
+[0m2022.01.03 14:29:41 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:41 INFO  time: compiled root in 0.15s[0m
+[0m2022.01.03 14:29:44 INFO  compiling root (2 scala sources)[0m
+[0m2022.01.03 14:29:44 INFO  time: compiled root in 0.87s[0m
+[0m2022.01.03 14:29:51 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:29:51 INFO  time: compiled root in 0.59s[0m
+[0m2022.01.03 14:30:00 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:00 INFO  time: compiled root in 0.16s[0m
+[0m2022.01.03 14:30:02 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:02 INFO  time: compiled root in 0.59s[0m
+[0m2022.01.03 14:30:11 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:11 INFO  time: compiled root in 0.6s[0m
+[0m2022.01.03 14:30:14 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:14 INFO  time: compiled root in 0.6s[0m
+[0m2022.01.03 14:30:24 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:24 INFO  time: compiled root in 0.13s[0m
+[0m2022.01.03 14:30:26 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:26 INFO  time: compiled root in 0.62s[0m
+[0m2022.01.03 14:30:37 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:37 INFO  time: compiled root in 0.6s[0m
+[0m2022.01.03 14:30:41 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:30:41 INFO  time: compiled root in 0.59s[0m
+[0m2022.01.03 14:31:22 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:31:22 INFO  time: compiled root in 0.73s[0m
+[0m2022.01.03 14:31:29 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:31:29 INFO  time: compiled root in 0.17s[0m
+[0m2022.01.03 14:31:31 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:31:31 INFO  time: compiled root in 0.17s[0m
+[0m2022.01.03 14:31:34 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:31:34 INFO  time: compiled root in 0.57s[0m
+[0m2022.01.03 14:31:43 INFO  compiling root (1 scala source)[0m
+[0m2022.01.03 14:31:43 INFO  time: compiled root in 0.66s[0m
+[0m2022.01.03 14:32:13 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\theod\AppData\Local\Temp\metals8088218712835539749\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.03 14:32:14 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_301)[0m
+[0m2022.01.03 14:32:14 INFO  [info] loading settings for project openweatherproject-build-build from metals.sbt ...[0m
+[0m2022.01.03 14:32:15 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project\project[0m
+[0m2022.01.03 14:32:15 INFO  [info] loading settings for project openweatherproject-build from metals.sbt ...[0m
+[0m2022.01.03 14:32:15 INFO  [info] loading project definition from C:\Users\theod\AIOMyData\AIOOpenWeather\openweatherproject\project[0m
+[0m2022.01.03 14:32:17 INFO  [success] Generated .bloop\openweatherproject-build.json[0m
+[0m2022.01.03 14:32:17 INFO  [success] Total time: 2 s, completed Jan 3, 2022 2:32:18 PM[0m
+[0m2022.01.03 14:32:17 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2022.01.03 14:32:17 INFO  [info] set current project to OpenWeatherProject (in build file:/C:/Users/theod/AIOMyData/AIOOpenWeather/openweatherproject/)[0m
+[0m2022.01.03 14:32:25 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2022.01.03 14:32:25 INFO  [success] Generated .bloop\root.json[0m
+[0m2022.01.03 14:32:25 INFO  [success] Total time: 7 s, completed Jan 3, 2022 2:32:25 PM[0m
+[0m2022.01.03 14:32:25 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2022.01.03 14:32:25 INFO  Disconnecting from Bloop session...[0m
+[0m2022.01.03 14:32:25 INFO  Shut down connection with build server.[0m
+[0m2022.01.03 14:32:25 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 14:32:25 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40002'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40002...
+The server is listening for incoming connections at tcp://127.0.0.1:40002...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:32:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:32:25 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30388'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30388...
+The server is listening for incoming connections at tcp://127.0.0.1:30388...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.03 14:32:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\theod\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.03 14:32:25 INFO  time: Connected to build server in 0.74s[0m
+[0m2022.01.03 14:32:25 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.03 14:32:27 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2022.01.03 14:32:27 INFO  time: indexed workspace in 1.58s[0m
+[0m2022.01.03 14:32:27 INFO  compiling root-test (1 scala source)[0m
+[0m2022.01.03 14:32:27 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.01.03 14:32:27 INFO  time: compiled root-test in 0.22s[0m
+[0m2022.01.03 14:33:01 INFO  shutting down Metals[0m
+[0m2022.01.03 14:33:01No more data in the server stdin, exiting... INFO 
+ Shut down connection with build server.No more data in the server stdin, exiting...
+[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.03 14:33:01 INFO  No more data in the client stdin, exiting...
+Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
