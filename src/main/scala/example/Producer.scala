@@ -1,5 +1,8 @@
 package example
 
+//Utility Imports
+import java.util.Calendar
+
 //API imports
 import org.apache.http.HttpEntity
 import org.apache.http.HttpResponse
@@ -668,17 +671,20 @@ class ProducerClass {
         println("Cycle:"+ cycle)
                
         while(true){
-          val startTime = System.currentTimeMillis()
+          //val startTime = System.currentTimeMillis()
           
           lat = coorArray(index)._1
           lon = coorArray(index)._2
           index = index+1
 
+          val key = Calendar.getInstance().getTime().toString()
           var value = apiRequestFunction("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&units=imperial&appid=39858c57bc812d47433632baf70aa20c")
           //var value = index.toString
           var record = new ProducerRecord[String,String](
             topic,
+            key,
             value
+            
           )
           producer.send(record)
           
@@ -687,10 +693,14 @@ class ProducerClass {
             println("Cycle:"+cycle)
             index = 0
           }
-          Thread.sleep(2656) 
+          
+          Thread.sleep(500) 
+
+ /*         
           val endTime = System.currentTimeMillis
           val totalTime = endTime - startTime
-          println(totalTime)   
+          println(totalTime)  
+ */
         }//End of while
 
 

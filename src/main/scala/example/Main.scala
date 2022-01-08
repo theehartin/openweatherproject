@@ -20,7 +20,9 @@ object Main{
           "\n3. Spark Consumer" +
           "\n4. FlatDF" +
           "\n5. Parsed Consumer" +
-          "\n6. Quit Application")
+          "\n6. Console Consumer" +
+          "\n7. Join Method Consumer" +
+          "\n8. Quit Application")
     try {
       
       val option = scala.io.StdIn.readInt()
@@ -56,6 +58,11 @@ object Main{
           sparkConsumer.refineData()
         }
         case 6 => {
+          val consumer = new ConsumerClass
+          println("I AM THE CONSOLE CONSUMER")
+          consumer.consoleConsumer()
+        }
+        case 7 => {
           loop = false
         }
       }//End of 'match'

@@ -55,6 +55,9 @@ class ConsumerClass {
       while (true) {
         val records = consumer.poll(10)
         for (record <- records.asScala) {
+
+          val key = record.key().toString()
+          val value = record.value().toString()
           
           jsonString = record.value().toString()
           var jValue = parse(jsonString)
@@ -72,7 +75,9 @@ class ConsumerClass {
           wind_speed = (jValue \ "wind" \ "speed").extract[Double]
           name  = (jValue \ "name").extract[String]
 
+          println("Key:"+ record.key() +":"+record.value())
 
+/* 
           println(
           latitude +"\n"+
           longitude+"\n"+
@@ -89,6 +94,10 @@ class ConsumerClass {
           wind_speed+"\n"+
           name
           )
+ */
+
+
+          
 /* 
           val fw = new FileWriter("GOOP.txt", true) ; 
             fw.write("This line appended to file!") ; 
@@ -102,7 +111,45 @@ class ConsumerClass {
       consumer.close()
     }
 
+
+
   }//End of consume()
+
+
+    def consoleConsumer(){
+      try {
+        consumer.subscribe(topics.asJava)
+        while (true) {
+          val records = consumer.poll(10)
+          for (record <- records.asScala) {
+            println(
+              //"Topic: " + record.topic() +
+                ",Key: " + record.key() +
+                ",Value: " + record.value() //+
+                //", Offset: " + record.offset() +
+                //", Partition: " + record.partition()
+            )
+          }
+        }
+      } catch {
+        case e: Exception => e.printStackTrace()
+      } finally {
+        consumer.close()
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    def parser(string: String){
     
