@@ -56,13 +56,6 @@ class SparkConsumerClass {
       .awaitTermination()
   }//End of printToConsole()
 
-  
-  def console(){
-    dfOut.writeStream
-      .format("console")
-      .start()
-      .awaitTermination()
-  }//End of console()
 
   def flattenRecord(): DataFrame = {
     var flatDF = dfOut
