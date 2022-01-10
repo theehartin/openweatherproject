@@ -2,6 +2,7 @@ package example
 
 //Utility Imports
 import java.util.Calendar
+import java.util.Timer
 
 //API imports
 import org.apache.http.HttpEntity
@@ -15,6 +16,7 @@ import org.apache.http.impl.client.DefaultHttpClient
 //Kafka Imports
 import java.util.Properties
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
+import java.util.TimerTask
 
 
 class ProducerClass {
@@ -666,62 +668,47 @@ class ProducerClass {
       val producer = new KafkaProducer[String, String](props)      
       val topic = "OpenWeather_OneCall"
 
+      val task = new TimerTask{       
+          def run() = {
+            //val startTime = System.currentTimeMillis()
+            
+          
+            lat = coorArray(index)._1
+            lon = coorArray(index)._2
+            index = index+1
+
+            val key = Calendar.getInstance().getTime().toString()
+            var value = apiRequestFunction("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&units=imperial&appid=39858c57bc812d47433632baf70aa20c")
+            //var value = index.toString
+            var record = new ProducerRecord[String,String](
+              topic,
+              key,
+              value
+              
+            )
+            producer.send(record)
+            
+            if (index == 599){
+              cycle = cycle+1
+              println("Cycle:"+cycle)
+              index = 0
+            }//End of 'if (index == 599)'
+
+          }//End of run()
+          run
+        }//End of TimerTask
+
       try {
         
         println("Cycle:"+ cycle)
-               
-        while(true){
-          //val startTime = System.currentTimeMillis()
-          
-          lat = coorArray(index)._1
-          lon = coorArray(index)._2
-          index = index+1
 
-          val key = Calendar.getInstance().getTime().toString()
-          var value = apiRequestFunction("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&units=imperial&appid=39858c57bc812d47433632baf70aa20c")
-          //var value = index.toString
-          var record = new ProducerRecord[String,String](
-            topic,
-            key,
-            value
-            
-          )
-          producer.send(record)
-          
-          if (index == 599){
-            cycle = cycle+1
-            println("Cycle:"+cycle)
-            index = 0
-          }
-          
-          Thread.sleep(500) 
-
- /*         
-          val endTime = System.currentTimeMillis
-          val totalTime = endTime - startTime
-          println(totalTime)  
- */
-        }//End of while
-
-
-
-        } catch {
-          case e: Exception => e.printStackTrace()
-        } finally {
-          producer.close()
-        }
-
-
-
-     
-
-
-
-
-
-
+        val scheduler = new Timer
+        scheduler.schedule(task,0L,2500L)
+      } catch {
+        case e: Exception => e.printStackTrace()
+      } 
 
     }//End of Produce
   
-
+ 
 }//End of Class
