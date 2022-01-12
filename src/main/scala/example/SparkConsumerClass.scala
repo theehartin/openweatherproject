@@ -6,6 +6,7 @@ import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types.{ArrayType,IntegerType, StringType, StructType, DoubleType}
 import com.google.flatbuffers.Struct
+import org.apache.spark.sql.streaming.ProcessingTime
 
 
 
@@ -144,9 +145,9 @@ class SparkConsumerClass {
     ,col("main.pressure")
     ,col("main.humidity")
     ,col("visibility")
-    ,col("clouds")
-    ,col("rain" )
-    ,col("snow")
+    ,col("clouds.all").as("clouds")
+    ,col("rain.1h").as("rain_1h")
+    ,col("snow.1h").as("snow_1h")
     ,col("sys.sunrise").as("sunrise")
     ,col("sys.sunset").as("sunset")
     ,col("id").as("City_id")
@@ -160,11 +161,15 @@ class SparkConsumerClass {
   }//End of refineData()
 
   def writeToParquet(df: DataFrame){
-    df
-    .writeStream.
-    outputMode("append")
+    println("I AM THE PARQUET WRITER")
+    import scala.concurrent.duration._
+    df.writeStream
+    .outputMode("append")
     .format("parquet")
     .option("path", "file:///home/maria_dev/AIOMyData/DataSets/OpenWeather/")
+    .option("checkpointLocation", "file:///home/maria_dev/AIOMyData/DataSets/OpenWeatherCheckPoint/")
+    .trigger(ProcessingTime(1.hour))
+    .start()
 
   }
 

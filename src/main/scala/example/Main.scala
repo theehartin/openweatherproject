@@ -44,7 +44,7 @@ object Main{
         }
         case 3 => {
           val sparkConsumer = new SparkConsumerClass
-          println("I AM THE PARQUET WRITER")
+          
           val df = sparkConsumer.refineData()
           sparkConsumer.writeToParquet(df)
           

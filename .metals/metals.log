@@ -19599,3 +19599,5 @@ WARNING: Unmatched cancel notification for request id 29047
 [0m2022.01.10 16:00:28 INFO  time: compiled root in 0.68s[0m
 [0m2022.01.10 16:00:33 INFO  compiling root (1 scala source)[0m
 [0m2022.01.10 16:00:33 INFO  time: compiled root in 0.71s[0m
+[0m2022.01.10 16:21:01 INFO  compiling root (1 scala source)[0m
+[0m2022.01.10 16:21:01 INFO  time: compiled root in 1s[0m
