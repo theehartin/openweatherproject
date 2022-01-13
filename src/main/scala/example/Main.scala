@@ -20,7 +20,7 @@ object Main{
           "\n2. Parsed Consumer" +
           "\n3. Write to Parquet" +
           "\n4. FlatDF" +
-          "\n5. " +
+          "\n5. Parquet Condenser" +
           "\n6. " +
           "\n7. Quit Application" +
           "\n8. ")
@@ -57,6 +57,9 @@ object Main{
           
         }
         case 5 => {
+          var fileSystemFunctions = new FileSystemFunctions
+
+          fileSystemFunctions.parquetCondenser()
           
         }
         case 6 => {
