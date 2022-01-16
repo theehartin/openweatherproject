@@ -5,6 +5,7 @@ object Main{
 
     var loop = true
     var producerRunning = false
+    val sparkConsumer = new SparkConsumerClass
     println()
     println()
     println()
@@ -18,7 +19,7 @@ object Main{
     println("Please select information to display:")
     println("1. Run Producer" +
           "\n2. Parsed Consumer" +
-          "\n3. Write to Parquet" +
+          "\n3. " +
           "\n4. FlatDF" +
           "\n5. Parquet Condenser" +
           "\n6. " +
@@ -35,22 +36,22 @@ object Main{
           val producer = new ProducerClass
           println("I AM THE PRODUCER")
           producer.produce
+
+          //Automatically write to parquet
+          val df = sparkConsumer.refineData()
+          sparkConsumer.writeToParquet(df)
         }
-        case 2 => {
-          val sparkConsumer = new SparkConsumerClass
+        case 2 => {          
           println("I AM THE SPARK PARSED CONSUMER")
           val df = sparkConsumer.refineData()
           sparkConsumer.printToConsole(df)
         }
-        case 3 => {
-          val sparkConsumer = new SparkConsumerClass
-          
+        case 3 => {          
           val df = sparkConsumer.refineData()
           sparkConsumer.writeToParquet(df)
           
         }
         case 4 => {
-          val sparkConsumer = new SparkConsumerClass
           println("I AM THE FLATTENED DF")
           val flatDF = sparkConsumer.flattenRecord()
           sparkConsumer.printToConsole(flatDF)

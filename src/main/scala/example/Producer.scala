@@ -3,6 +3,7 @@ package example
 //Utility Imports
 import java.util.Calendar
 import java.util.Timer
+import java.net.UnknownHostException
 
 //API imports
 import org.apache.http.HttpEntity
@@ -17,6 +18,7 @@ import org.apache.http.impl.client.DefaultHttpClient
 import java.util.Properties
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 import java.util.TimerTask
+
 
 
 class ProducerClass {
@@ -705,7 +707,14 @@ class ProducerClass {
         val scheduler = new Timer
         scheduler.schedule(task,0L,2500L)
       } catch {
-        case e: Exception => e.printStackTrace()
+        case e: UnknownHostException => {
+          e.printStackTrace() 
+          task.run()
+        }                       //Write these to error logs at some point
+        case e: Throwable =>{
+          e.printStackTrace()
+          task.run()
+        }
       } 
 
     }//End of Produce
