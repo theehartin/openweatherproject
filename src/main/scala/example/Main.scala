@@ -41,10 +41,18 @@ object Main{
           val df = sparkConsumer.refineData()
           sparkConsumer.writeToParquet(df)
         }
-        case 2 => {          
-          println("I AM THE SPARK PARSED CONSUMER")
-          val df = sparkConsumer.refineData()
-          sparkConsumer.printToConsole(df)
+        case 2 => {   
+          try{       
+            println("I AM THE SPARK PARSED CONSUMER")
+            val df = sparkConsumer.refineData()
+            sparkConsumer.printToConsole(df)
+          }catch{
+            case e: Throwable => {
+              e.printStackTrace()
+              val df = sparkConsumer.refineData()
+              sparkConsumer.printToConsole(df)
+            }
+          }
         }
         case 3 => {          
           val df = sparkConsumer.refineData()
